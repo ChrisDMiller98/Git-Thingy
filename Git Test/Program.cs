@@ -8,7 +8,6 @@ namespace Git_Test
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             Console.WriteLine("I am thinking of a number between 0 and 100");
