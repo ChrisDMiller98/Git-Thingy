@@ -10,16 +10,9 @@ namespace Git_Test
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter Number A: ");
-            int Num1 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter Number B: ");
-            int Num2 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("I am thinking of a number between ");
-            Console.Write(Num1);
-            Console.Write(" and ");
-            Console.WriteLine(Num2);
+            Console.WriteLine("I am thinking of a number between 0 and 100");
             Random random = new Random();
-            int NumToGuess = random.Next(Num1, Num2);
+            int NumToGuess = random.Next(0, 100);
             int UserGuess = 0;
             while (UserGuess != NumToGuess)
             {
