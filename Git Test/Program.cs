@@ -8,6 +8,7 @@ namespace Git_Test
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             Console.Write("Enter Number A: ");
